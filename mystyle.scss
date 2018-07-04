@@ -53,9 +53,18 @@ html {
     width: 100%;
   }
 }
+#subtitulo {
+  font-family: cursive;
+}
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
+  }
+}
+#logo {
+  text-decoration: none;
+  :hover {
+    text-decoration: none;
   }
 }
