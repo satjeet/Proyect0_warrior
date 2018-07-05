@@ -1,14 +1,34 @@
-html {
-  font-size: 14px;
+.border-bottom, .border-top {
+  border-top: 1px solid #e5e5e5;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 600px) {
   html {
-    font-size: 16px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 601) {
+  html {
+    font-size: 15px;
   }
 }
 .container {
-  max-width: 960px;
+  max-width: 850px;
+  display: flex;
+  align-content: center;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.TextoPrincipal h2 {
+  padding: inherit;
+  text-align: center;
+}
+
+.parrafo #primerParrafo {
+  text-indent: -5em;
 }
 
 .pricing-header {
@@ -17,14 +37,6 @@ html {
 
 .card-deck .card {
   min-width: 220px;
-}
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow {
@@ -57,11 +69,6 @@ html {
   font-family: cursive;
 }
 
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
 #logo {
   text-decoration: none;
 }
